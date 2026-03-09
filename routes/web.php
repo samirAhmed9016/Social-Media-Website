@@ -19,7 +19,7 @@ use Inertia\Inertia;
 
 Route::get('/', [HomeController::class, 'index'])
     ->middleware(['auth', 'verified'])
-    ->name('home');
+    ->name('dashboard');
 
 
 Route::middleware('auth')->group(function () {
