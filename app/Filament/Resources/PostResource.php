@@ -19,14 +19,12 @@ class PostResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
-/*************  ✨ Windsurf Command ⭐  *************/
     /**
      * Defines the form schema for the PostResource.
      *
      * @param  \Filament\Forms\Form  $form
      * @return \Filament\Forms\Form
      */
-/*******  4ed367d5-5fa3-4daf-9f7f-090beaf980ae  *******/
     public static function form(Form $form): Form
     {
         return $form
@@ -43,14 +41,12 @@ class PostResource extends Resource
             ]);
     }
 
-/*************  ✨ Windsurf Command ⭐  *************/
         /**
          * Returns the table schema for the PostResource.
          *
          * @param  \Filament\Tables\Table  $table
          * @return \Filament\Tables\Table
          */
-/*******  dec5e517-20c6-4aca-b27c-fb22c092fe5d  *******/
     public static function table(Table $table): Table
     {
         return $table
@@ -99,13 +95,11 @@ class PostResource extends Resource
         ];
     }
 
-/*************  ✨ Windsurf Command ⭐  *************/
 /**
  * Get the pages available for the PostResource.
  *
  * @return array
  */
-/*******  c72dd151-e3d7-4065-8d92-6b1d79d71661  *******/
     public static function getPages(): array
     {
         return [
